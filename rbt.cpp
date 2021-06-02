@@ -451,4 +451,14 @@ int main() {
         << "After deleting" << endl;
     bst.deleteNode(40);
     bst.printTree();
+    cout << "\n";
+	auto val = bst.searchNode(117);
+	if (val != NULL) {
+		cout << "Search value :: " << val->data << " is present in the tree" << endl;
+	}
+	else {
+		cout << "Search Value  is NOT present in the tree.." << endl;
+	}
+	return 0;
+}
 }
