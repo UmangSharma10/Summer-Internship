@@ -452,12 +452,12 @@ int main() {
     bst.deleteNode(40);
     bst.printTree();
     cout << "\n";
-	auto val = bst.searchNode(117);
+	auto val = bst.searchNode(65);
 	if (val != NULL) {
-		cout << "Search value :: " << val->data << " is present in the tree" << endl;
+		cout << "Search value is present in the tree" << endl;
 	}
 	else {
-		cout << "Search Value  is NOT present in the tree.." << endl;
+		cout << "Search Value  is not present in the tree.." << endl;
 	}
 	return 0;
 }
